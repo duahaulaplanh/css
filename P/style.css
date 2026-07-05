@@ -1,0 +1,57 @@
+nav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    background-color:rgb(194, 211, 211);
+}
+
+header a {
+    text-align: center;
+    text-decoration: none;
+    margin:2%;
+    color: black;
+}
+.main-news {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    grid-gap: 2%;         
+}
+
+.img1 {
+    width: 100%;
+
+}
+.sub-news-container {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 4%;
+}
+
+/* Xóa bỏ gạch chân và màu xanh mặc định của link */
+.news-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Định dạng cho chữ tiêu đề nằm TRÊN ảnh */
+.news-item h2 {
+    font-size: 16px;
+    margin-bottom: 10px; /* Khoảng cách từ chữ xuống ảnh ở dưới */
+    height: 45px;        /* Khóa chiều cao chữ để 2 ảnh ở dưới luôn thẳng hàng ngang */
+    overflow: hidden;
+}
+
+/* Định dạng cho 2 ảnh nhỏ */
+.img2 {
+    width: 100%; /* Ảnh căng đều vừa vặn với cột chữ ở trên */
+}
