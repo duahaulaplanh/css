@@ -1,0 +1,33 @@
+.khung1 {
+    display: block;
+    background-color: #e6f7ff;
+    border: 5px solid black;  
+    margin: auto;
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+#text {
+    padding-bottom: 10px;
+}
+#anh {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.khung {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin: 50px auto;
+    grid-gap: 70px;
+    width: 960px;
+}
+
+.khung234  {
+    display: block;
+    border: 15px solid green;
+}
+.khung234 img {
+    width: 100%;
+    height: auto;
+}
