@@ -69,7 +69,7 @@ main a:hover {
     height: 557px;
     display: block;
 }
-.center img:nth-child(1) {
+.center img {
     width: 100%;
 }
 .center a {
@@ -124,11 +124,17 @@ main a:hover {
     width: 60px;
     height: 16px;
 }
-.centernews {
+.centernews a {
     display: flex;
-    
+    margin: 0 0 10px 0;
+
 }
 .centernews img {
     width: 150px;
     height: 100px;
+}
+.centernews a>p {
+    margin: 0 0 0 15px;
+    color: black;
+    font-size: 20px;
 }
