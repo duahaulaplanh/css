@@ -1,7 +1,7 @@
 header {
     display: flex;
     margin: 1% 20% 0 20%;
-    width: 60%;
+    width: 70%;
 
 }
 hr {
@@ -10,12 +10,12 @@ hr {
     margin: 15px 5px 15px 5px;
     width: 98%;
 }
-.logo img{
-    width: 56px;
-    height: 15px;
-    padding-top: 3px;
-    padding-right: 20px;
-    
+.logo a>i{
+    margin-right: 10px;
+}
+.logo a:hover {
+    border-bottom: solid 3px green;
+    color: green;
 }
 .menu {
     display: flex;
@@ -24,7 +24,7 @@ hr {
     padding: 0;
     margin: 0;  
 }
-.menu li a:hover{
+.menu a:hover{
     border-bottom: solid 3px green;
     color: green;
 }
@@ -41,7 +41,7 @@ main {
     display: block;
     background-color: white;
     margin: 1% 20% 0 20%;
-    width: 60%;
+    width: 70%;
 }
 .block1 {
     display: flex;
@@ -147,4 +147,30 @@ main a:hover {
     font-weight: bold;
 }
 
-
+.block3 {
+    display: flex;
+    width: 100%;
+}
+.left3 {
+    width: 55%;
+    display: block;
+}
+.leftnews3 a {
+    display: flex;
+}
+.left3 img {
+    width: 40%;
+    height: auto;
+}
+.leftitems {
+    display: block;
+}
+.leftnews3 h4 {
+    margin: 0 0 2% 4%;
+    font-size: 18px;
+}
+.leftnews3 p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 2% 4%;
+}
